@@ -1,5 +1,8 @@
+import CameraViewVue from '@/CameraView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import HandMadeVue from '@/components/HandMade.vue'
+
 
 const routes = [
   {
@@ -7,6 +10,16 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+    {
+      path: '/',
+      name: 'Camera',
+      component: CameraViewVue
+    },
+    {
+      path: '/',
+      name: 'HandMade',
+      component: HandMadeVue
+    },
   {
     path: '/about',
     name: 'about',

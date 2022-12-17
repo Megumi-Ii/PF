@@ -154,7 +154,6 @@ h3 {
   height: 100%;
   padding: 5% 0;
 }
-
 .MyFavorites p {
   font-size: 3rem;
   font-weight: bold;
